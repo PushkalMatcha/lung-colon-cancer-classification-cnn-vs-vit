@@ -1,0 +1,24 @@
+# Use PyTorch wheels built for CUDA 12.8 (cu128) from the official PyTorch index
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+# Recommended PyTorch builds targeting CUDA 12.8 (cu128).
+# We keep the PyTorch cu128 wheel index above. Do NOT include the +cu128
+# suffix in the package name here so pip can resolve a matching +cu128 wheel
+# from the PyTorch index. If you want a reproducible install, uncomment and
+# adjust the pinned examples below to a known available +cu128 build.
+torch
+torchvision
+torchaudio
+
+# Example pinned +cu128 builds (commented out). These are only examples —
+# uncomment and update to exact available versions if you need strict pins.
+# torch==2.8.0+cu128
+# torchvision==0.23.0+cu128
+# torchaudio==2.8.0+cu128
+
+numpy
+matplotlib
+seaborn
+scikit-learn
+tqdm
+Pillow

@@ -1,0 +1,12 @@
+# Ignore the virtual environment
+lung_env/
+
+# Ignore the dataset (it's too big for GitHub)
+data/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore VS Code settings
+.vscode/
