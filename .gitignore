@@ -1,0 +1,12 @@
+# Ignore the virtual environment
+lung_env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore large model files
+*.pth
+
+# Ignore VS Code settings
+.vscode/
